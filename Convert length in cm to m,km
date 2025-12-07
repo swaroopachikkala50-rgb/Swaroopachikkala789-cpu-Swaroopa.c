@@ -1,0 +1,12 @@
+//to convert length in cm into m,km
+#include<stdio.h>
+main(){
+	float cm,m,km;
+	printf("enter length in cm:");
+	scanf("%f",&cm);
+	m=cm/100;
+	km=cm/10000;
+	printf("m:%f\n,km:%f\n",m,km);
+
+	
+}
