@@ -1,0 +1,9 @@
+//circumference of a circle
+#include<stdio.h>
+main()
+{
+	float radius,circumference;
+	printf("enter the values of the circle:");
+	circumference=2*3.14*radius;
+	printf("circumferenceof a circle=%.2%f/n",circumference);
+}
